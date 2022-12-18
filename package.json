@@ -1,5 +1,5 @@
 {
-  "name": "library-example",
+  "name": "library-example-proper-px",
   "version": "0.0.1",
   "description": "Repo to aid video series",
   "targets": {
@@ -23,7 +23,10 @@
   ],
   "scripts": {
     "watch": "parcel watch",
-    "build": "parcel build"
+    "build": "parcel build",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
