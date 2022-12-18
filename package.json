@@ -1,6 +1,6 @@
 {
   "name": "library-example-proper-px",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Repo to aid video series",
   "targets": {
     "css": {
